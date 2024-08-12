@@ -74,6 +74,9 @@ const Footer = () => {
           125, State Bank Nagar, Paschim Vihar, New Delhi, 110063
         </p>
         <p className="text-gray-500 text-sm font-semibold">
+          Office Hours: Mon - Fri (9:00 AM - 5:00 PM)
+        </p>
+        <p className="text-gray-500 text-sm font-semibold">
           Copyright © 2024 Mehar Consultants All Rights Reserved
         </p>
       </div>

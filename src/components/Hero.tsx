@@ -23,8 +23,14 @@ function Hero() {
               Starts With Our Customized
               <span className="text-red-600"> Talent Strategies.</span>
             </h1>
-            <button className="text-md px-8 py-4 bg-black text-white rounded-full mt-6 mb-6 hover:bg-white border-2 hover:text-black">
-              Submit Resume
+            <button className="text-md mx-2 px-8 py-4 bg-black text-white rounded-full mt-6 mb-6 hover:bg-white border-2 hover:text-black">
+              For Candidates
+            </button>
+            <button className="text-md mx-2 px-8 py-4 bg-black text-white rounded-full mt-6 mb-6 hover:bg-white border-2 hover:text-black">
+              For Clients
+            </button>
+            <button className="text-md mx-2 px-8 py-4 bg-slate-200 text-black rounded-full mt-6 mb-6 hover:bg-white border-2 hover:text-black">
+              Hire Us
             </button>
             <p className="text-md">
               success comes from our tech and human-focused strategy, whether

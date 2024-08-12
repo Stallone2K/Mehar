@@ -65,8 +65,8 @@ function Nav() {
                 </Link>
               </li> */}
               <li>
-                <Link to="/Contact" className="hover:text-red-600">
-                  Contact
+                <Link to="/Jobs" className="hover:text-red-600">
+                  Jobs
                 </Link>
               </li>
             </ul>

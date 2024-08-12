@@ -8,7 +8,6 @@ function Expertise() {
       <FadeIn>
         <h1 className="text-4xl md:text-5xl font-bold ">
           Why Us? <br />
-          <span className="text-red-600">Our Expertise.</span>
         </h1>
       </FadeIn>
       <FadeIn>
