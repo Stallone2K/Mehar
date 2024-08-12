@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 function Breadcrumb() {
   return (
     <div>
       <div className="flex items-center py-4 overflow-x-auto whitespace-nowrap justify-center sticky top-0 z-20">
-        <a href="/Services" className="text-gray-900 ">
+        <Link to="/Services" className="text-gray-900 ">
           Overview
-        </a>
+        </Link>
 
         <span className="mx-5 text-gray-900 rtl:-scale-x-100">
           <svg
@@ -21,8 +23,8 @@ function Breadcrumb() {
           </svg>
         </span>
 
-        <a
-          href="/Services/Clients"
+        <Link
+          to="/Services/Clients"
           className="flex items-center text-gray-900 -px-2 hover:underline"
         >
           <svg
@@ -41,7 +43,7 @@ function Breadcrumb() {
           </svg>
 
           <span className="mx-2">For Clients</span>
-        </a>
+        </Link>
 
         <span className="mx-5 text-gray-500 rtl:-scale-x-100">
           <svg
@@ -58,8 +60,8 @@ function Breadcrumb() {
           </svg>
         </span>
 
-        <a
-          href="/Services/Candidates"
+        <Link
+          to="/Services/Candidates"
           className="flex items-center text-gray-900 -px-2 hover:underline"
         >
           <svg
@@ -78,7 +80,7 @@ function Breadcrumb() {
           </svg>
 
           <span className="mx-2">For Candidates</span>
-        </a>
+        </Link>
       </div>
     </div>
   );

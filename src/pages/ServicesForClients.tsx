@@ -1,6 +1,6 @@
 import Breadcrumb from "../components/Breadcrumb";
 import Container from "../components/Container";
-import SO from "../assets/SO.svg";
+import New from "../assets/SO.svg";
 function ServicesForClients() {
   return (
     <div>
@@ -15,7 +15,7 @@ function ServicesForClients() {
               <span className="text-red-600"> Success</span>
             </h1>
             <button className="text-md mx-2 px-8 py-4 bg-black text-white rounded-full mt-6 mb-6 hover:bg-white border-2 hover:text-black">
-              <a href="/Services/Candidates">Contact Now</a>
+              <a href="/Contact">Contact Now</a>
             </button>
 
             <p className="text-md">
@@ -23,8 +23,8 @@ function ServicesForClients() {
               Solutions.
             </p>
           </div>
-          <div className="HeroSVG">
-            <img src={SO} className=" hidden lg:block" />
+          <div className="">
+            <img src={New} className=" hidden lg:block" />
           </div>
           <div className="divider"></div>
         </div>
