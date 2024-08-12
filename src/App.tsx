@@ -7,6 +7,8 @@ import Services from "./pages/Services";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Jobs from "./pages/Jobs";
+import ServicesForClients from "./pages/ServicesForClients";
+import ServicesForCandidates from "./pages/ServicesForCandidates";
 
 function App() {
   return (
@@ -16,6 +18,14 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/About" element={<About></About>}></Route>
         <Route path="/Services" element={<Services></Services>}></Route>
+        <Route
+          path="/Services/Clients"
+          element={<ServicesForClients></ServicesForClients>}
+        ></Route>
+        <Route
+          path="/Services/Candidates"
+          element={<ServicesForCandidates></ServicesForCandidates>}
+        ></Route>
         <Route path="/Clients" element={<Clients></Clients>}></Route>
         <Route path="/Contact" element={<Contact></Contact>}></Route>
         <Route path="/Jobs" element={<Jobs></Jobs>}></Route>

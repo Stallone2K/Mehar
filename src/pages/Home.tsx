@@ -2,7 +2,6 @@ import Hero from "../components/Hero";
 import Asps from "../components/Asps";
 import Expertise from "../components/Expertise";
 import Services from "../components/Services";
-import QnA from "../components/QnA";
 import ContactForm from "../components/Form";
 
 function Home() {
@@ -12,7 +11,6 @@ function Home() {
       <Asps></Asps>
       <Expertise></Expertise>
       <Services></Services>
-      <QnA></QnA>
       <ContactForm></ContactForm>
     </div>
   );

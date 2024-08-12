@@ -24,10 +24,10 @@ function Hero() {
               <span className="text-red-600"> Talent Strategies.</span>
             </h1>
             <button className="text-md mx-2 px-8 py-4 bg-black text-white rounded-full mt-6 mb-6 hover:bg-white border-2 hover:text-black">
-              For Candidates
+              <a href="/Services/Candidates">For Candidates</a>
             </button>
             <button className="text-md mx-2 px-8 py-4 bg-black text-white rounded-full mt-6 mb-6 hover:bg-white border-2 hover:text-black">
-              For Clients
+              <a href="/Services/Clients">For Clients</a>
             </button>
             <button className="text-md mx-2 px-8 py-4 bg-slate-200 text-black rounded-full mt-6 mb-6 hover:bg-white border-2 hover:text-black">
               Hire Us
