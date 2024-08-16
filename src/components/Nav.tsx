@@ -45,17 +45,17 @@ function Nav() {
           >
             <ul className="flex flex-col md:flex-row md:space-x-6 text-lg text-gray-600 text-center">
               <li>
-                <Link to="/" className="hover:text-red-600">
+                <Link to="/" className="hover:text-[#0ACDB7]">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/About" className="hover:text-red-600">
+                <Link to="/About" className="hover:text-[#0ACDB7]">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/Services" className="hover:text-red-600">
+                <Link to="/Services" className="hover:text-[#0ACDB7]">
                   Services
                 </Link>
               </li>
@@ -65,8 +65,8 @@ function Nav() {
                 </Link>
               </li> */}
               <li>
-                <Link to="/Jobs" className="hover:text-red-600">
-                  Jobs
+                <Link to="/Jobs" className="hover:text-[#0ACDB7]">
+                  Careers
                 </Link>
               </li>
             </ul>

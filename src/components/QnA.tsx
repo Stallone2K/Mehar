@@ -9,39 +9,38 @@ interface FAQItem {
 
 const FAQ: FAQItem[] = [
   {
-    question: "Do I need to pay to use your services?",
+    question: "How should I prepare for an HR interview?",
     answer:
-      "No, our services are free for job seekers. We are paid by employers who hire through us.",
+      "Research the company, review your resume and experience, practice answering common interview questions.",
   },
   {
-    question: "What types of roles do you recruit for?",
-    answer:
-      "We recruit for a variety of positions across the industry, ranging from entry-level to executive roles.",
+    question: "How long should an HR interview typically last?",
+    answer: "30 minutes to 1 hour, depending on the company and role.",
   },
   {
-    question: "What should I include in my resume?",
+    question: "30 minutes to 1 hour, depending on the company and role.",
     answer:
-      "Your resume should include a summary of your skills, experience, education, and any relevant achievements. Tailoring your resume to highlight how your experience matches the role you're applying for can also be beneficial.",
+      "Yes, prepare questions to ask the HR representative about the company and role.",
   },
   {
-    question: "Can you help with career advice and CV writing?",
+    question: "Can I negotiate salary during the HR interview?",
     answer:
-      "Yes, we offer career advice and CV writing services to help you present your best self to potential employers.",
+      "It's best to wait until the final interview or after a job offer is extended.",
   },
   {
-    question: "How often should I update my profile with your agency?",
+    question: "Can I follow up with the HR representative after the interview?",
     answer:
-      "It’s a good idea to update your profile whenever you gain new skills or experience, or if you’re looking for new opportunities. Regular updates help us match you with the most relevant roles.",
+      "Yes, send a thank-you note or email to express gratitude and interest",
   },
   {
-    question: "How do you find candidates?",
+    question: "How do I handle a phone or video interview?",
     answer:
-      "We use a variety of methods including our extensive database, job boards, social media, and targeted headhunting. We also leverage our network and industry connections to find top talent.",
+      "Choose a quiet space, dress professionally, and use a headset or earbuds.",
   },
   {
-    question: "How do you ensure the quality of candidates?",
+    question: "What should i include in my resume?",
     answer:
-      "We employ a rigorous screening process that includes interviews, reference checks, and skills assessments to ensure candidates meet your specific requirements and fit your company culture.",
+      "Here are the essential sections and information to include in your resume:",
   },
 ];
 
@@ -61,7 +60,7 @@ function QnA() {
       <div className="container mx-auto mt-10">
         <FadeIn>
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
-            Questions? <span className="text-red-600">Answers.</span>
+            Frequently Asked<span className="text-[#0ACDB7]"> Questions</span>
           </h1>
         </FadeIn>
         <FadeIn>

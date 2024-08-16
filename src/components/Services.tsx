@@ -11,7 +11,8 @@ const Why = () => {
           </FadeIn>
           <FadeIn>
             <h1 className="text-4xl md:text-5xl font-bold mt-4">
-              What <span className=" text-red-600">Services</span> Do We Offer ?
+              What <span className=" text-[#0ACDB7]">Services</span> Do We Offer
+              ?
             </h1>
           </FadeIn>
           <FadeIn>

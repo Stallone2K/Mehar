@@ -28,7 +28,7 @@ function ContactForm() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Contact Us.</h2>
           <p className="font-semibold text-lg md:text-xl mb-6">
             Let's Connect - Drop Us A Line
-            <span className="text-red-600"> _________.</span>
+            <span className="text-[#0ACDB7]"> _________.</span>
           </p>
           <div className="mb-4">
             <label
@@ -106,7 +106,7 @@ function ContactForm() {
           </div>
           <button
             type="submit"
-            className="bg-red-600 hover:bg-red-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-[#0ACDB7] hover:bg-[#0ACDB7]/60 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           >
             Send Message
           </button>

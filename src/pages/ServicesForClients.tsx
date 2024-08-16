@@ -1,6 +1,6 @@
 import Breadcrumb from "../components/Breadcrumb";
 import Container from "../components/Container";
-import New from "../assets/SO.svg";
+import New from "../assets/undraw_business_chat_re_gg4h.svg";
 function ServicesForClients() {
   return (
     <div>
@@ -11,8 +11,9 @@ function ServicesForClients() {
           <div>
             <h1 className=" text-4xl md:text-5xl font-bold">
               Innovative Workforce
-              <span className="text-red-600"> Solutions</span> For Your Business
-              <span className="text-red-600"> Success</span>
+              <span className="text-[#0ACDB7]"> Solutions</span> For Your
+              Business
+              <span className="text-[#0ACDB7]"> Success</span>
             </h1>
             <button className="text-md mx-2 px-8 py-4 bg-black text-white rounded-full mt-6 mb-6 hover:bg-white border-2 hover:text-black">
               <a href="/Contact">Contact Now</a>

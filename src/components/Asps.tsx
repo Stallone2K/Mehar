@@ -1,4 +1,4 @@
-import Stairs from "../assets/Stairs.svg";
+import Stairs from "../assets/undraw_visual_data_re_mxxo.svg";
 import SlideIn from "../components/SlideIn";
 import { Link } from "react-router-dom";
 function Asps() {
@@ -10,7 +10,7 @@ function Asps() {
           <div className="px-2 flex justify-center items-start flex-col">
             <h2 className="text-4xl md:text-5xl font-bold">
               Your Success,Our
-              <span className="text-red-600 underline"> Consultation.</span>
+              <span className="text-[#0ACDB7] underline"> Consultation.</span>
             </h2>
             <p className="md:text-2xl py-6">
               at the heart of every great achievement is a well-crafted plan.

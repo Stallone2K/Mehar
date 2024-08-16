@@ -33,23 +33,7 @@ const Footer = () => {
         <div className="flex items-center justify-center">
           <div className="border-b border-gray-300 my-2 md:w-[600px]"></div>
         </div>
-        <div className="flex justify-around items-center gap-4 px-4">
-          <a
-            href="/About"
-            className="text-gray-500 text-sm font-semibold underline"
-          >
-            About
-          </a>
-          <a href="/" className="text-gray-500 text-sm font-semibold underline">
-            Terms & Conditions
-          </a>
-          <a
-            href="/Contact"
-            className="text-gray-500 text-sm font-semibold underline"
-          >
-            Contact
-          </a>
-        </div>
+
         <p className="text-gray-500 text-sm font-semibold">
           125, State Bank Nagar, Paschim Vihar, New Delhi, 110063
         </p>

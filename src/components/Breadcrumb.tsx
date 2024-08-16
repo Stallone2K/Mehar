@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 function Breadcrumb() {
   return (
     <div>
-      <div className="flex items-center py-4 overflow-x-auto whitespace-nowrap justify-center sticky top-0 z-20">
+      <div className="flex items-center py-4 overflow-x-auto whitespace-nowrap justify-center sticky top-0 z-20 md:justify-center md:px-4 lg:px-6 xl:px-8">
         <Link to="/Services" className="text-gray-900 ">
           Overview
         </Link>
 
-        <span className="mx-5 text-gray-900 rtl:-scale-x-100">
+        <span className="mx-2 md:mx-4 text-gray-900 rtl:-scale-x-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-5 h-5"
+            className="w-4 h-4 md:w-5 md:h-5"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -25,11 +25,11 @@ function Breadcrumb() {
 
         <Link
           to="/Services/Clients"
-          className="flex items-center text-gray-900 -px-2 hover:underline"
+          className="flex items-center text-gray-900 text-sm md:text-base -px-2 hover:underline"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-6 h-6 mx-2"
+            className="w-5 h-5 md:w-6 md:h-6 mx-2"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -42,13 +42,13 @@ function Breadcrumb() {
             />
           </svg>
 
-          <span className="mx-2">For Clients</span>
+          <span className="mx-2 text-sm md:text-base">For Clients</span>
         </Link>
 
-        <span className="mx-5 text-gray-500 rtl:-scale-x-100">
+        <span className="mx-2 md:mx-4 text-gray-500 rtl:-scale-x-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-5 h-5"
+            className="w-4 h-4 md:w-5 md:h-5"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -62,11 +62,11 @@ function Breadcrumb() {
 
         <Link
           to="/Services/Candidates"
-          className="flex items-center text-gray-900 -px-2 hover:underline"
+          className="flex items-center text-gray-900 text-sm md:text-base -px-2 hover:underline"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-6 h-6 mx-2"
+            className="w-5 h-5 md:w-6 md:h-6 mx-2"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -79,7 +79,7 @@ function Breadcrumb() {
             />
           </svg>
 
-          <span className="mx-2">For Candidates</span>
+          <span className="mx-2 text-sm md:text-base">For Candidates</span>
         </Link>
       </div>
     </div>
