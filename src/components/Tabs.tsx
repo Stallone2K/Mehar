@@ -18,7 +18,7 @@ export function TabsComponent() {
   return (
     <Tabs
       defaultValue="candidates"
-      className="flex flex-col justify-center items-center"
+      className="flex flex-col justify-center items-center mt-4"
     >
       <TabsList className="grid grid-cols-3 w-[400px]">
         <TabsTrigger value="candidates">Candidates</TabsTrigger>

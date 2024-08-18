@@ -9,27 +9,30 @@ import Footer from "./components/Footer";
 import Jobs from "./pages/Jobs";
 import ServicesForClients from "./pages/ServicesForClients";
 import ServicesForCandidates from "./pages/ServicesForCandidates";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Nav></Nav>
-      <Routes>
-        <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/About" element={<About></About>}></Route>
-        <Route path="/Services" element={<Services></Services>}></Route>
-        <Route
-          path="/Services/Clients"
-          element={<ServicesForClients></ServicesForClients>}
-        ></Route>
-        <Route
-          path="/Services/Candidates"
-          element={<ServicesForCandidates></ServicesForCandidates>}
-        ></Route>
-        <Route path="/Clients" element={<Clients></Clients>}></Route>
-        <Route path="/Contact" element={<Contact></Contact>}></Route>
-        <Route path="/Jobs" element={<Jobs></Jobs>}></Route>
-      </Routes>
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/About" element={<About></About>}></Route>
+          <Route path="/Services" element={<Services></Services>}></Route>
+          <Route
+            path="/Services/Clients"
+            element={<ServicesForClients></ServicesForClients>}
+          ></Route>
+          <Route
+            path="/Services/Candidates"
+            element={<ServicesForCandidates></ServicesForCandidates>}
+          ></Route>
+          <Route path="/Clients" element={<Clients></Clients>}></Route>
+          <Route path="/Contact" element={<Contact></Contact>}></Route>
+          <Route path="/Jobs" element={<Jobs></Jobs>}></Route>
+        </Routes>
+      </ScrollToTop>
       <Footer></Footer>
     </>
   );
