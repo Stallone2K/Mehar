@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Card = () => {
   return (
     <div className="flex justify-center items-center gap-10 flex-col md:flex-row">
@@ -33,7 +34,7 @@ const Card = () => {
           </p>
         </div>
         <div className="p-6">
-          <a href="#" className="inline-block">
+          <Link to="/Services" className="inline-block">
             <button
               className="flex items-center md:gap-2 md:px-4 md:py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
               type="button"
@@ -54,7 +55,7 @@ const Card = () => {
                 ></path>
               </svg>
             </button>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
@@ -76,7 +77,7 @@ const Card = () => {
           </p>
         </div>
         <div className="p-6 pt-0">
-          <a href="#" className="inline-block">
+          <Link to="/Services" className="inline-block">
             <button
               className="flex items-center md:gap-2 md:px-4 md:py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
               type="button"
@@ -97,7 +98,7 @@ const Card = () => {
                 ></path>
               </svg>
             </button>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
@@ -124,7 +125,7 @@ const Card = () => {
           </p>
         </div>
         <div className="p-6 pt-0">
-          <a href="#" className="inline-block">
+          <Link to="/Services" className="inline-block">
             <button
               className="flex items-center md:gap-2 md:px-4 md:py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
               type="button"
@@ -145,7 +146,7 @@ const Card = () => {
                 ></path>
               </svg>
             </button>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
@@ -173,7 +174,7 @@ const Card = () => {
           </p>
         </div>
         <div className="p-6 pt-0">
-          <a href="#" className="inline-block">
+          <Link to="/Services" className="inline-block">
             <button
               className="flex items-center md:gap-2 md:px-4 md:py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
               type="button"
@@ -194,7 +195,7 @@ const Card = () => {
                 ></path>
               </svg>
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -202,4 +203,3 @@ const Card = () => {
 };
 
 export default Card;
-

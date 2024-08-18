@@ -4,7 +4,7 @@ import Card from "./Card";
 import { Link } from "react-router-dom";
 function Expertise() {
   return (
-    <Container className="flex max-h[screen] justify-center flex-col items-center">
+    <Container className="flex min-h-[100svh] justify-center flex-col items-center py-8">
       <FadeIn>
         <h1 className="text-4xl md:text-5xl font-bold ">
           Why Us? <br />

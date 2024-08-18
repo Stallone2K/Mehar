@@ -1,4 +1,4 @@
-import Mehar from "../assets/Mehar.png";
+import Mehar from "../assets/Logo.png";
 
 const Footer = () => {
   return (

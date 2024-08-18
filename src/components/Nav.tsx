@@ -1,4 +1,4 @@
-import Mehar from "../assets/MeharCo.jpeg";
+import Mehar from "../assets/Logo.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -12,10 +12,10 @@ function Nav() {
   return (
     <>
       <nav className="bg-white sticky top-0 shadow-md z-20">
-        <div className="container mx-auto px-4 py-3 flex justify-between items-center flex-wrap">
+        <div className="container mx-auto px-4 flex justify-between items-center flex-wrap">
           <div className="flex items-center w-full md:w-auto">
             <Link to="/">
-              <img src={Mehar} alt="Mehar Consultant" className="h-11 w-32" />
+              <img src={Mehar} alt="Mehar Consultant" className="h-24 w-46" />
             </Link>
             <button
               className="text-gray-600 hover:text-gray-900 md:hidden ml-auto"

@@ -10,8 +10,11 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useToast } from "@/components/ui/use-toast";
 
 export function TabsComponent() {
+  const { toast } = useToast();
+
   return (
     <Tabs
       defaultValue="candidates"
@@ -58,7 +61,15 @@ export function TabsComponent() {
             </div>
           </CardContent>
           <CardFooter>
-            <Button>Submit</Button>
+            <Button
+              onClick={() => {
+                toast({
+                  description: "Your Message Has Been Sent.",
+                });
+              }}
+            >
+              Submit
+            </Button>
           </CardFooter>
         </Card>
       </TabsContent>
@@ -98,7 +109,15 @@ export function TabsComponent() {
             </div>
           </CardContent>
           <CardFooter>
-            <Button>Submit</Button>
+            <Button
+              onClick={() => {
+                toast({
+                  description: "Your Message Has Been Sent.",
+                });
+              }}
+            >
+              Submit
+            </Button>
           </CardFooter>
         </Card>
       </TabsContent>
@@ -138,7 +157,15 @@ export function TabsComponent() {
             </div>
           </CardContent>
           <CardFooter>
-            <Button>Submit</Button>
+            <Button
+              onClick={() => {
+                toast({
+                  description: "Your Message Has Been Sent.",
+                });
+              }}
+            >
+              Submit
+            </Button>
           </CardFooter>
         </Card>
       </TabsContent>

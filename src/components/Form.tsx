@@ -1,5 +1,7 @@
 import { useState } from "react";
 import FadeIn from "./FadeIn";
+import { useToast } from "@/components/ui/use-toast";
+import { Button } from "@/components/ui/button";
 
 function ContactForm() {
   const [name, setName] = useState("");
@@ -17,6 +19,8 @@ function ContactForm() {
     console.log("Phone:", phone);
     console.log("Message:", message);
   };
+
+  const { toast } = useToast();
 
   return (
     <FadeIn>
@@ -104,12 +108,18 @@ function ContactForm() {
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          <button
+          <Button
             type="submit"
+            variant={"outline"}
             className="bg-[#0ACDB7] hover:bg-[#0ACDB7]/60 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            onClick={() => {
+              toast({
+                description: "Your Message Has Been Sent.",
+              });
+            }}
           >
             Send Message
-          </button>
+          </Button>
         </form>
       </div>
     </FadeIn>

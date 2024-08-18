@@ -1,9 +1,9 @@
 import Container from "../components/Container";
-import Mehar from "../assets/Mehar.png";
+import Mehar from "../assets/Logo.png";
 import FadeIn from "../components/FadeIn";
 const Why = () => {
   return (
-    <Container className="text-textBlack min-h-[100svh] flex justify-center items-center">
+    <Container className="text-textBlack min-h-[100svh] flex justify-center items-center py-8">
       <div className="  p-8">
         <div className="text-center flex items-center justify-center flex-col">
           <FadeIn>
