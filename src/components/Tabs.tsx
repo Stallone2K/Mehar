@@ -13,19 +13,26 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export function TabsComponent() {
   return (
-    <Tabs defaultValue="candidates" className="w-[400px]">
-      <TabsList className="grid w-full grid-cols-3">
+    <Tabs
+      defaultValue="candidates"
+      className="flex flex-col justify-center items-center"
+    >
+      <TabsList className="grid grid-cols-3 w-[400px]">
         <TabsTrigger value="candidates">Candidates</TabsTrigger>
         <TabsTrigger value="hired">Work For Us</TabsTrigger>
         <TabsTrigger value="clients">Clients</TabsTrigger>
       </TabsList>
-      <TabsContent value="candidates">
+      <TabsContent
+        value="candidates"
+        className="flex flex-col justify-center items-center gap-3"
+      >
         <div className="max-w-[1280px] mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold">
-            For <span className="text-[#0ACDB7]">Candidates</span>
+            Looking For A<span className="text-[#0ACDB7]"> Job ?</span>
           </h1>
+          <p> Submit Your Resume And Hear From Us Shortly.</p>
         </div>
-        <Card>
+        <Card className="w-[400px]">
           <CardHeader>
             <CardTitle>Candidates</CardTitle>
             <CardDescription>
@@ -55,7 +62,16 @@ export function TabsComponent() {
           </CardFooter>
         </Card>
       </TabsContent>
-      <TabsContent value="hired">
+      <TabsContent
+        value="hired"
+        className="flex flex-col justify-center items-center gap-3"
+      >
+        <div className="max-w-[1280px] mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold">
+            <span className="text-[#0ACDB7]">Join </span> Our Team
+          </h1>
+          <p> Submit Your Resume And Hear From Us Shortly.</p>
+        </div>
         <Card>
           <CardHeader>
             <CardTitle>Get Hired</CardTitle>
@@ -86,7 +102,16 @@ export function TabsComponent() {
           </CardFooter>
         </Card>
       </TabsContent>
-      <TabsContent value="clients">
+      <TabsContent
+        value="clients"
+        className="flex flex-col justify-center items-center gap-3"
+      >
+        <div className="max-w-[1280px] mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold">
+            <span className="text-[#0ACDB7]">Partner </span> With Us
+          </h1>
+          <p> Submit Your Resume And Hear From Us Shortly.</p>
+        </div>
         <Card>
           <CardHeader>
             <CardTitle>Hire Us</CardTitle>

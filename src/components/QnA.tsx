@@ -18,7 +18,7 @@ const FAQ: FAQItem[] = [
     answer: "30 minutes to 1 hour, depending on the company and role.",
   },
   {
-    question: "30 minutes to 1 hour, depending on the company and role.",
+    question: " Can I ask questions during an HR interview?",
     answer:
       "Yes, prepare questions to ask the HR representative about the company and role.",
   },
@@ -38,9 +38,9 @@ const FAQ: FAQItem[] = [
       "Choose a quiet space, dress professionally, and use a headset or earbuds.",
   },
   {
-    question: "What should i include in my resume?",
+    question: "What type of roles do you recruit? ",
     answer:
-      "Here are the essential sections and information to include in your resume:",
+      "We recruit for different sectors like travel, BPO, EdTech,  Finance & IT.",
   },
 ];
 
